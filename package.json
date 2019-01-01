@@ -1,14 +1,14 @@
 {
-  "name": "webpack-example-nasa-apod",
+  "name": "preact-webpack-boilerplate",
   "version": "1.0.0",
-  "description": "**ABOUT**",
+  "description": "boilerplate for prect with webpack, babel, scss, and jest",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack",
     "test": "jest ./test"
   },
-  "author": "",
+  "author": "Leo Yockey (https://github.com/Ljyockey)",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {

@@ -1,6 +1,6 @@
 'use strict';
 
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   module: {
@@ -27,7 +27,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './index.html'
+      template: './index.html' //this ensures we get the html file with preact imported in a script tag and the target html element for our preact component
     })
   ]
 };
